@@ -20,6 +20,11 @@ body {
     border-bottom: 0;
 }
 
+/* .msn p {
+    font-size: 5px;
+
+} */
+
 .input-group-prepend span{
     width: 50px;
     background-color: #ff0000;

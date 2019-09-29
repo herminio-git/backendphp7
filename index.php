@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -21,8 +23,18 @@
             <div class="card card-login mx-auto text-center bg-dark">
                 <div class="card-header mx-auto bg-dark">
                     <span> <img src="img/logo-elefante.png" class="w-50" alt="Logo"> </span><br/>
-                                <span class="logo_title mt-5"> Login Dashboard </span>
-        <!--            <h1>--><?php //echo $message?><!--</h1>-->
+
+                    <span class="logo_title mt-5"> Login para Dashboard </span>
+
+                               
+                        <?php 
+                            if(isset($_SESSION['nao_autenticado'])): ?>
+                                <p><small><small>Usuário ou Senha Inválidos!</small></small></p>
+                        <?php 
+                            endif;
+                            unset( $_SESSION['nao_autenticado']);
+                        ?>
+                   
 
                 </div>
                 <div class="card-body">

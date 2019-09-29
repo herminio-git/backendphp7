@@ -18,7 +18,7 @@
     $row = mysqli_num_rows($result);
 
     if($row > 0){
-        $_SESSION['usuario'] = $usuario;
+        $_SESSION['db_usuario'] = $usuario;
         header('Location: painel_admin.php');
         exit();
 
