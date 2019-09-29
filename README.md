@@ -11,6 +11,7 @@ _______________________________________________________________________
 
 ##    Ótima fonte de ícones e exemplos
 ##### https://demos.creative-tim.com/light-bootstrap-dashboard-pro/examples/calendar.html#lbd
+##### https://nucleoapp.com/free-icons
 
 ______________________________________________________________________
 ##### Tableless (pesquisas): https://tableless.com.br/
