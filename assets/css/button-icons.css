@@ -1,0 +1,50 @@
+
+
+i.fa-user {
+	color: #00acee;
+	background:#fff;
+    
+	
+}
+
+i.fa-user:hover {
+	color: #00acee;
+	background:#fff;
+    opacity: 0.5;
+    
+	
+}
+
+i.fa-edit {
+	color: #5fb12f;
+	background:#fff;
+	
+	
+}
+i.fa-edit:hover {
+	color: #5fb12f;
+	background:#fff;
+	opacity: 0.5;
+	
+}
+
+i.fa-times {
+	color: #c83f3f;
+	background: #fff;
+	
+
+}
+
+i.fa-times:hover {
+	color: #c83f3f;
+	background: #fff;
+	opacity: 0.5;
+
+}
+
+a.fa-wifi:hover {
+	color: #5252b8;
+	background: #fff;
+	opacity: 0.5;
+
+}

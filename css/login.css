@@ -1,5 +1,6 @@
 body {
     background: #000 !important;
+    
 }
 .card {
     border: 1px solid #28a745;
@@ -12,7 +13,7 @@ body {
 
 .card-header {
     color: #fff;
-    /*background: #ff0000;*/
+    background: #ff0000;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 600 !important;
@@ -20,10 +21,6 @@ body {
     border-bottom: 0;
 }
 
-/* .msn p {
-    font-size: 5px;
-
-} */
 
 .input-group-prepend span{
     width: 50px;
